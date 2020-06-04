@@ -18,6 +18,6 @@ ENV STI_SCRIPTS_PATH="/usr/local/s2i" \
 
 COPY ./s2i/bin/ /usr/local/s2i
 
-ENTRYPOINT ["java","-jar","/tmp/src/target/spring-petclinic-2.3.0.BUILD-SNAPSHOT.jar"]
+
 
 USER 1001
