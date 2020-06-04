@@ -3,7 +3,7 @@ cat <<EOF
 
 Sample invocation:
 
-s2i build <source code path/URL> nheidloff/s2i-openliberty <image-name>
+s2i build <source code path/URL> arun1252/s2i-open-liberty <image-name>
 
 docker run -it --rm -p 9080:8080 <image-name>
 
